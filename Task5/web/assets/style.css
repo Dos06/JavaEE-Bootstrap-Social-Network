@@ -1,0 +1,337 @@
+/*STANDARD THEME*/
+img.theme-standard {
+    filter: grayscale(0%);
+}
+body.theme-standard {
+    background-color: white;
+    filter: grayscale(0%);
+}
+nav.theme-standard {
+    background-color: dimgray;
+}
+/*.nav-item.theme-standard,*/
+/*.nav-item.active.theme-standard {*/
+/*    color: black;*/
+/*}*/
+.main-title.theme-standard {
+    background-color: lightblue;
+}
+.news-item.theme-standard {
+    background-color: white;
+}
+.card-text.theme-standard {
+    font-size: 18px;
+    line-height: 1.5;
+}
+.news-item-publication.theme-standard {
+    background-color: lightskyblue;
+    color: white;
+}
+nav.footer.theme-standard {
+    background-color: powderblue;
+}
+
+
+/*DARK THEME*/
+img.theme-dark {
+    filter: grayscale(0%);
+}
+body.theme-dark {
+    background-color: dimgray;
+    filter: grayscale(0%);
+}
+nav.theme-dark,
+nav.footer.theme-dark {
+    background-color: #292b2c;
+}
+.main-title.theme-dark {
+    background-color: darkgrey;
+}
+.news-item.theme-dark {
+    background-color: darkgrey;
+}
+.card-text.theme-standard {
+    font-size: 18px;
+    line-height: 1.5;
+}
+.news-item-publication.theme-dark {
+    background-color: #292b2c;
+    color: white;
+}
+
+
+/*BARBIE THEME*/
+img.theme-barbie {
+    filter: grayscale(0%);
+}
+body.theme-barbie {
+    background-color: lightpink;
+    filter: grayscale(0%);
+}
+nav.theme-barbie,
+nav.footer.theme-barbie {
+    background-color: plum;
+}
+.main-title.theme-barbie {
+    background-color: linen;
+}
+.card-text.theme-standard {
+    font-size: 18px;
+    line-height: 1.5;
+}
+.news-item.theme-barbie {
+    background-color: lavenderblush;
+}
+.news-item-publication.theme-barbie {
+    background-color: plum;
+    color: black;
+}
+
+
+/*HAPPY THEME*/
+img.theme-happy {
+    filter: grayscale(0%);
+}
+body.theme-happy {
+    background-color: lemonchiffon;
+    filter: grayscale(0%);
+}
+nav.theme-happy,
+nav.footer.theme-happy {
+    background-color: darkseagreen;
+}
+.main-title.theme-happy {
+    background-color: azure;
+}
+.news-item.theme-happy {
+    background-color: honeydew;
+}
+.card-text.theme-standard {
+    font-size: 18px;
+    line-height: 1.5;
+}
+.news-item-publication.theme-happy {
+    background-color: aquamarine;
+    color: black;
+}
+
+
+/*LIGHT THEME*/
+img.theme-light {
+    filter: grayscale(0%);
+}
+body.theme-light {
+    background-color: white;
+    filter: grayscale(0%);
+}
+nav.theme-light {
+    background-color: darkgray;
+}
+.main-title.theme-light {
+    background-color: white;
+    border: 2px solid black;
+}
+.news-item.theme-light {
+    background-color: white;
+    border: 2px solid lightgrey;
+}
+.card-text.theme-standard {
+    font-size: 18px;
+    line-height: 1.5;
+}
+.news-item-publication.theme-light {
+    background-color: ghostwhite;
+    border: 2px solid black;
+    color: #292b2c;
+}
+nav.footer.theme-light {
+    background-color: ghostwhite;
+}
+
+
+/*MONOCHROME THEME*/
+img.theme-monochrome {
+    filter: grayscale(100%);
+}
+body.theme-monochrome {
+    background-color: #292b2c;
+    filter: grayscale(100%);
+}
+nav.theme-monochrome {
+    background-color: #292b2c;
+}
+.main-title.theme-monochrome {
+    background-color: #292b2c;
+    border: 2px solid lightgrey;
+    color: ghostwhite;
+}
+.news-item.theme-monochrome {
+    background-color: #292b2c;
+    color: ghostwhite;
+    border: 2px solid lightgrey;
+}
+.card-text.theme-standard {
+    font-size: 18px;
+    line-height: 1.5;
+}
+.news-item.theme-monochrome .card-body a,
+.text-muted {
+    color: white;
+}
+.news-item-publication.theme-monochrome {
+    background-color: #292b2c;
+    border: 2px solid lightgrey;
+    color: ghostwhite;
+}
+nav.footer.theme-monochrome {
+    background-color: #292b2c;
+    color: white;
+}
+
+
+/*MONOCHROME INVERSE THEME*/
+img.theme-monochrome-inverse {
+    filter: grayscale(100%);
+}
+body.theme-monochrome-inverse {
+    background-color: ghostwhite;
+    filter: grayscale(100%);
+}
+nav.theme-monochrome-inverse {
+    background-color: #292b2c;
+}
+.main-title.theme-monochrome-inverse {
+    background-color: ghostwhite;
+    border: 2px solid #292b2c;
+    color: #292b2c;
+}
+.news-item.theme-monochrome-inverse {
+    background-color: ghostwhite;
+    color: #292b2c;
+    border: 2px solid #292b2c;
+}
+.card-text.theme-standard {
+    font-size: 18px;
+    line-height: 1.5;
+}
+.news-item.theme-monochrome-inverse .card-body a,
+.text-muted {
+    color: #292b2c;
+}
+.news-item-publication.theme-monochrome-inverse {
+    background-color: ghostwhite;
+    border: 2px solid #292b2c;
+    color: #292b2c;
+}
+nav.footer.theme-monochrome-inverse {
+    background-color: lightgrey;
+    color: #292b2c;
+    border-top: 1px solid grey;
+}
+
+
+/*LARGE THEME*/
+img.theme-large {
+    filter: grayscale(0%);
+}
+body.theme-large {
+    background-color: white;
+    filter: grayscale(0%);
+    font-size: 20px;
+}
+nav.theme-large {
+    background-color: dimgray;
+    font-size: 24px;
+}
+.main-title.theme-large {
+    background-color: lightblue;
+}
+.main-title.theme-large h2 {
+    font-size: 50px;
+}
+.main-title.theme-large p,
+.card-body.theme-large b {
+    font-size: 30px;
+}
+.news-item.theme-large,
+p.card-text.theme-large {
+    background-color: white;
+    font-size: 24px;
+}
+b.card-text.theme-large {
+    font-size: 30px;
+}
+.card-body.theme-large a h5,
+.card-text.h5.theme-large,
+.card-title.theme-large {
+    font-size: 28px;
+}
+.news-item-publication.theme-large {
+    background-color: lightskyblue;
+    color: white;
+    font-size: 60px;
+}
+.newsitem-publication.theme-large.h1 {
+    font-size: 60px;
+}
+.newsitem-publication.theme-large.lead {
+    font-size: 22px;
+}
+nav.footer.theme-large {
+    background-color: powderblue;
+}
+
+
+/*SMALL THEME*/
+img.theme-small {
+    filter: grayscale(0%);
+}
+body.theme-small {
+    background-color: white;
+    filter: grayscale(0%);
+    font-size: 13px;
+}
+nav.theme-small {
+    background-color: dimgray;
+    font-size: 13px;
+}
+.main-title.theme-small {
+    background-color: lightblue;
+}
+.main-title.theme-small h2 {
+    font-size: 24px;
+}
+.main-title.theme-small p,
+.card-body.theme-small b {
+    font-size: 16px;
+}
+.news-item.theme-small,
+p.card-text.theme-small {
+    background-color: white;
+    font-size: 13px;
+}
+b.card-text.theme-small {
+    font-size: 16px;
+}
+.card-body.theme-small a h5,
+.card-text.h5.theme-small,
+.card-title.theme-small {
+    font-size: 16px;
+}
+.newsitem.title.theme-small {
+    font-size: 26px;
+}
+.news-item-publication.theme-small {
+    background-color: lightskyblue;
+    color: white;
+    font-size: 26px;
+}
+.newsitem-publication.theme-small.h1 {
+    font-size: 30px;
+}
+.newsitem-publication.theme-small.lead {
+    font-size: 16px;
+}
+nav.footer.theme-small {
+    background-color: powderblue;
+}
